@@ -1,0 +1,53 @@
+.input {
+  max-width: 500px;
+  background-color: rgb(141, 140, 140);
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input input {
+  width: 90%;
+  height: 35px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  border-width: 1px;
+}
+
+.icon {
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.overflow {
+  overflow: auto;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.videosWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+videosWrap li {
+  width: 350px;
+  list-style-type: none;
+  border-width: 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: transparent;
+  border-radius: 10px;
+  color: black;
+  margin: 10px;
+  box-shadow: 5px 5px 8px rgb(161, 161, 161);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  flex-grow: 1;
+}

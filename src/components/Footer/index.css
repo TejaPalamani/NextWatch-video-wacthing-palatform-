@@ -1,0 +1,38 @@
+footer {
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  display: none;
+  position: fixed;
+  bottom: 0px;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    display: block;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  footer ul li {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  footer ul li i {
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+  }
+
+  footer ul li i a {
+    color: white;
+  }
+
+  footer ul li i:hover {
+    background-color: rgb(164, 165, 165);
+    padding: 2px;
+    border-radius: 9px;
+  }
+}

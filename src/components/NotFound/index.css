@@ -1,0 +1,9 @@
+.notImage {
+  width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  .notImage {
+    max-width: 250px;
+  }
+}

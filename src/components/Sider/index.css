@@ -1,0 +1,65 @@
+aside ul li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  min-width: 200px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+aside {
+  padding-top: 20px;
+  background-color: rgb(59, 59, 59);
+
+  min-height: 100vh;
+  max-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  aside {
+    display: none;
+  }
+}
+
+.contactUs {
+  height: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.contactUsIcons img {
+  width: 35px;
+  margin-left: 8px;
+}
+
+.toggleButtonOff {
+}
+
+.hideClasses {
+  display: none;
+}
+
+aside ul li i {
+  font-size: 25px;
+}
+
+aside ul li i a {
+}
+
+aside ul li:hover {
+  background-color: rgb(151, 151, 151);
+  border-radius: 15px;
+}
+.toggleButtonON li:hover {
+  background-color: rgb(151, 151, 151);
+  border-radius: 15px;
+}

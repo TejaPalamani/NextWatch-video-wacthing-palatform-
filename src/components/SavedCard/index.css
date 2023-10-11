@@ -1,0 +1,47 @@
+.list {
+  margin: 20px;
+  list-style-type: none;
+  color: none;
+}
+
+.list1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.r {
+  font-size: 11px;
+}
+
+@media screen and (min-width: 767px) {
+  .imagecard {
+    min-width: 400px;
+    max-width: 410px;
+    height: 200px;
+    display: flex;
+    margin: 10px;
+    flex-shrink: 1;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .imagecard {
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    border-radius: 5px;
+  }
+  .r {
+    font-size: 09px;
+  }
+
+  .list1 {
+    display: flex;
+    flex-direction: column;
+  }
+}

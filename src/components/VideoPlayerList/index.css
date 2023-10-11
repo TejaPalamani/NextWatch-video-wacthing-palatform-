@@ -1,0 +1,28 @@
+.profileLogo {
+  max-width: 50px;
+  border-radius: 20px;
+  height: 50px;
+}
+.underSection {
+  display: flex;
+  flex-direction: row;
+}
+.specialLink {
+  width: 350px;
+  list-style-type: none;
+  border-width: 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: aliceblue;
+
+  border-radius: 10px;
+  color: black;
+  margin: 10px;
+  box-shadow: 5px 5px 8px rgb(161, 161, 161);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  flex-grow: 1;
+  text-decoration: none;
+}

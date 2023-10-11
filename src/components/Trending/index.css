@@ -1,0 +1,9 @@
+.retryBUtton {
+  width: 120px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: rgb(95, 146, 223);
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+}
